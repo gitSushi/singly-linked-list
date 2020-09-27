@@ -6,11 +6,30 @@
 ## **Data Structure**
 @snapend
 
-+++?gist=gitSushi/6e80057358793b4ab282d7adb68d1171
++++
 
-@snap[north span-100 my-orange-text]
+@title[Properties]
+
+@snap[north-west span-70 text-center]
+#### About the singly linked list
+@snapend
+
+@snap[my-orange-text]
+@ul[list-spaced-bullets text-09]
+- The singly linked list is the simplest list amongst the linked list.
+- It starts with only one node, the head which is set to null.
+- It points to the next node, which will allow to traverse the list only from the head node to the end of the list.
+- Let's have a look at the **code**.
+@ulend
+@snapend
+
++++
+
+@snap[my-orange-text]
 ### The details of the code
 @snapend
+
++++?gist=gitSushi/6e80057358793b4ab282d7adb68d1171
 
 @snap[south span-100 my-orange-text text-10]
 @[1-6](Instead of using a class which is essentially a function returning an object, we will do just that to declare our function *Node*.)
