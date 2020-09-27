@@ -1,12 +1,10 @@
-@snap[north span-100]
-## **Data Structure**
-@snapend
-
-@snap[midpoint span-100 fragment]
+@snap[midpoint span-100]
 # Singly Linked List
 @snapend
 
-+++
+@snap[north span-100 fragment]
+## **Data Structure**
+@snapend
 
 +++?gist=gitSushi/6e80057358793b4ab282d7adb68d1171
 
