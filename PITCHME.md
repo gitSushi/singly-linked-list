@@ -14,7 +14,7 @@
 #### About the singly linked list
 @snapend
 
-@snap[my-orange-text]
+@snap[my-orange-strong]
 @ul[list-spaced-bullets text-09]
 - The singly linked list is the simplest list amongst the linked list.
 - It starts with only one node, the head which is set to null.
@@ -32,7 +32,7 @@
 +++?gist=gitSushi/6e80057358793b4ab282d7adb68d1171
 @title[Code review]
 
-@snap[south span-100 my-orange-text text-10]
+@snap[north span-100 my-orange-text text-10]
 @[1-6](Instead of using a class which is essentially a function returning an object, we will do just that to declare our function *Node*.)
 @[8-10](*SinglyLinkedList* will be the outer function of our closures. Initialization of the two variables that we need to keep track of: *head* and *length* of the list.)
 @[12-14](A helper function that returns a boolean wether the list empty or not.)
