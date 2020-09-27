@@ -25,13 +25,18 @@
 
 +++
 
-@transition[slide]
 @snap[my-orange-text]
+@transition[slide]
 ### The details of the code
 @snapend
 
 +++?gist=gitSushi/6e80057358793b4ab282d7adb68d1171
 @title[Code review]
+
+@snap[my-orange-text]
+@transition[slide]
+### The details of the code
+@snapend
 
 @snap[north span-100 my-orange-text text-10]
 @[1-6](Instead of using a class which is essentially a function returning an object, we will do just that to declare our function *Node*.)
