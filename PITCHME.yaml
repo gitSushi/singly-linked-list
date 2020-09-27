@@ -12,7 +12,7 @@ theme-headline   : [ "Montserrat", "#ffd51f", "none", "#FFFFFF", "100", "120", "
 theme-byline     : [ "Open Sans", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
 theme-text       : [ "Open Sans", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
 theme-links      : [ "#F1C40F", "#5254F7" ]
-theme-code       : [ "Inconsolata", "100", "120" ]
+theme-code       : [ "Inconsolata", "96", "116" ]
 theme-controls   : [ "#C0C0C0" ]
 theme-margins    : [ "0", "15px" ]
 # layout           : center
