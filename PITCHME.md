@@ -10,7 +10,7 @@
 
 @title[Properties]
 
-@snap[north-west span-70 text-center]
+@snap[north-west span-70 text-center my-orange-text]
 #### About the singly linked list
 @snapend
 
