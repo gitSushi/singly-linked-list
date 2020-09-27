@@ -25,6 +25,7 @@
 
 +++
 
+@transition[slide-down]
 @snap[my-orange-text]
 ### The details of the code
 @snapend
