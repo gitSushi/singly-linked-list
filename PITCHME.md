@@ -49,6 +49,9 @@
 @[65-67](The *showList* function will first check if the list is empty and log so...)
 @[68-77](or traverse the list, save the values in an array then log the result in the form of a string with separators.)
 @[79-81](The *showLength* function is quite self-explanatory. It will log the *length* of our list.)
+@[83-103](The *deleteAtIndex* function)
+@[106-128](The *deleteAtValue* function)
+@[130-139](Eventually the closures are returned in an object. (Using the object property initializer syntax of ES6))
 @snapend
 
 +++?image=assets/img/linked_list_1.png&opacity=60&position=left&size=45% 100%
