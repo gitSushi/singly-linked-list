@@ -35,7 +35,7 @@
 
 @snap[north span-100 my-orange-text text-10]
 @[1-6](Instead of using a class which is essentially a function returning an object, we will do just that to declare our function *Node*.)
-@[8-10](*SinglyLinkedList* will be the outer function of our closures. Initialization of the two variables that we need to keep track of: *head* and *length* of the list.)
+@[8-10](*SinglyLinkedList* will be the outer function of our closures. We initialize the two variables that we need to keep track of : *head* and *length* of the list.)
 @[12-14](A helper function that returns a boolean wether the list empty or not.)
 @[16-19](The *append* function references an instance of the node object then if the list is empty saves the node as the *head* of the list)
 @[20-28](Starting from the *head* we iterate until a node that points to *null* is found. It will be set as the new node. *length* is incremented.)
@@ -43,9 +43,11 @@
 @[42,](The *insertValueAtIndex* function is a little more complex with its two parameters : *value*, *index*.)
 @[43-44](If the *index* is out of bounds log "Invalid index".)
 @[45-47](Invoke the prepend function if the *index* is 0.)
-@[48-52](Knowing the index is valid, initialize the necessary variables to insert the new node. In this order, the *previousNode* will point at the new node which will point at the *currentNode*.)
-@[53-57](Iterate until the index is found which sets the variables.)
+@[48-52](Knowing the index is valid, initialize the necessary variables to insert the new node. In this order, the *previousNode* will point at the new **node** which will point at the *currentNode*.)
+@[53-57](Iterate until the *index* is found which sets the variables.)
 @[58-63](Add the new node by referencing the pointers. Finally increment *length*.)
+@[65-77](The *showList* function will log what we have so far in our list.)
+@[79-81](The *showLength* function is quite self-explanatory. It will log the *length* of our list.)
 @snapend
 
 +++?image=assets/img/linked_list_1.png&opacity=60&position=left&size=45% 100%
