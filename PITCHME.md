@@ -49,9 +49,15 @@
 @[65-67](The *showList* function will first check if the list is empty and log so...)
 @[68-77](or traverse the list, save the values in an array then log the result in the form of a string with separators.)
 @[79-81](The *showLength* function is quite self-explanatory. It will log the *length* of our list.)
-@[83-103](The *deleteAtIndex* function)
-@[106-128](The *deleteAtValue* function)
+@[83-85](The *deleteAtIndex* function first checks if the list is empty or the *index* is out of bounds.)
+@[86-89](If the *index* is 0 the second node becomes the new *head*.)
+@[90-93](The *previousNode*'s pointer will become the *currentNode*'s pointer as to skip the *currentNode* thus deleting it.)
+@[94-104](Iterate to find the *currentNode* corresponding to the index. Make the changes and decrement *length*. Optionally one can return the resulting list.)
+@[106-108](The *deleteAtValue* function starts with returning *null* if the list is empty.)
+@[109-117](We traverse the list (in a similar previous way) and look for the value. The use of a *counter* will become apparent in the following part.)
+@[118-128](If the value isn't found, the function returns *null*. If the counter is 0 the second node becomes the *head* else the node to delete is skipped and *length* is decreased.)
 @[130-139](Eventually the closures are returned in an object. (Using the object property initializer syntax of ES6))
+@[141-151](All that is left is to create an instance of the *SinglyLinkedList* and invoke its closures.)
 @snapend
 
 +++?image=assets/img/linked_list_1.png&opacity=60&position=left&size=45% 100%
