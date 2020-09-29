@@ -35,10 +35,10 @@
 
 @snap[north span-100 my-orange-text text-10]
 @[1-6](Instead of using a class which is essentially a function returning an object, we will do just that to declare our function *Node*.)
-@[8-10](*SinglyLinkedList* will be the outer function of our closures. We initialize the two variables that we need to keep track of : *head* and *length* of the list.)
+@[8-10](*SinglyLinkedList* will be the outer function of our closures. We initialize the two variables that we need to keep track of : *head* and *length*.)
 @[12-14](A helper function that returns a boolean wether the list empty or not.)
-@[16-19](The *append* function references an instance of the node object then if the list is empty saves the node as the *head* of the list)
-@[20-28](Starting from the *head* we iterate until a node that points to *null* is found. It will be set as the new node. *length* is incremented.)
+@[16-19](The *append* function first creates an instance of the node object then if the list is empty saves the node as the *head* of the list)
+@[20-28](Starting from the *head* we iterate until a node that points to *null* is found. It will be set as the new node. *length* is increased.)
 @[30-40](The *prepend* function is very similar to the append function. In the second part (from *else*), the current head will become the new *head*'s pointer.)
 @[42,](The *insertValueAtIndex* function is a little more complex with its two parameters : *value*, *index*.)
 @[43-44](If the *index* is out of bounds log "Invalid index".)
@@ -57,7 +57,7 @@
 @[109-117](We traverse the list (in a similar previous way) and look for the value. The use of a *counter* will become apparent in the following part.)
 @[118-128](If the value isn't found, the function returns *null*. If the counter is 0 the second node becomes the *head* else the node to delete is skipped and *length* is decreased.)
 @[130-139](Eventually the closures are returned in an object. (Using the object property initializer syntax of ES6))
-@[141-151](All that is left is to create an instance of the *SinglyLinkedList* and invoke its closures.)
+@[141-151](All that is left is to create an instance of the *SinglyLinkedList* and invoke its methods (our closures).)
 @snapend
 
 +++?image=assets/img/linked_list_1.png&opacity=60&position=left&size=45% 100%
