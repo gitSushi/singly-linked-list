@@ -38,7 +38,7 @@
 @[8-10](*SinglyLinkedList* will be the outer function of our closures. Initialization of the two variables that we need to keep track of: *head* and *length* of the list.)
 @[12-14](A helper function that returns a boolean wether the list empty or not.)
 @[16-19](The *append* function references an instance of the node object then if the list is empty saves the node in the head of the list)
-@[20-28](a node that _points_ to __null__)
+@[20-28](Starting from the head we iterate until a node that points to `null` is found. It will be set as the new node.)
 @[30-40](prepend)
 @[42,](Declare the insertValueAtIndex with its two parameter, value, index.)
 @[43-44](If the index is out of bounds log "Invalid index".)
