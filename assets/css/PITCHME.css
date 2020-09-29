@@ -2,6 +2,7 @@
 section .my-orange-text h3,
 section .my-orange-text h4,
 .my-orange-text em,
+.my-orange-text strong,
 .my-orange-strong strong {
   color: #ffd51f !important;
 }
