@@ -46,7 +46,8 @@
 @[48-52](Knowing the index is valid, initialize the necessary variables to insert the new node. In this order, the *previousNode* will point at the new **node** which will point at the *currentNode*.)
 @[53-57](Iterate until the *index* is found which sets the variables.)
 @[58-63](Add the new node by referencing the pointers. Finally increment *length*.)
-@[65-77](The *showList* function will log what we have so far in our list.)
+@[65-67](The *showList* function will first check if the list is empty and log so...)
+@[68-77](or traverse the list, save the values in an array then log the result in the form of a string with separators.)
 @[79-81](The *showLength* function is quite self-explanatory. It will log the *length* of our list.)
 @snapend
 
